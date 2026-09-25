@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: sitespark
+Version: 0.1.0
+Summary: Phase 1 local-business lead discovery and enrichment
+Requires-Python: >=3.11
+Requires-Dist: fastapi<1.0,>=0.115
+Requires-Dist: uvicorn[standard]<1.0,>=0.30
+Requires-Dist: sqlalchemy<3.0,>=2.0
+Requires-Dist: pydantic-settings<3.0,>=2.4
+Requires-Dist: httpx<1.0,>=0.27
+Requires-Dist: celery<6.0,>=5.4
+Requires-Dist: redis<6.0,>=5.0
+Requires-Dist: playwright<2.0,>=1.48
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.23; extra == "dev"

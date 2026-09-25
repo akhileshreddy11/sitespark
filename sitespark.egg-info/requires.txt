@@ -1,0 +1,12 @@
+fastapi<1.0,>=0.115
+uvicorn[standard]<1.0,>=0.30
+sqlalchemy<3.0,>=2.0
+pydantic-settings<3.0,>=2.4
+httpx<1.0,>=0.27
+celery<6.0,>=5.4
+redis<6.0,>=5.0
+playwright<2.0,>=1.48
+
+[dev]
+pytest>=8.0
+pytest-asyncio>=0.23
